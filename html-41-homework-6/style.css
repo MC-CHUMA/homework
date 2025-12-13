@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    padding:  20px;
+    display: flex;
+}
+
+.whole-form{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.form-group{
+    margin-bottom: 8px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+fieldset{
+    border: none;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 200px;
+    min-height: 20px;
+}
